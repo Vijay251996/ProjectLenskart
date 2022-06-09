@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.lenskart.utility.Reporting" />
+	</listeners>
+	<test thread-count="2" name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- 
+			 <class name="com.lenskart.testCases.TechnicalinfoTest"/>  
+			<class name="com.lenskart.testCases.CartTest"/> 
+			<class name="com.lenskart.testCases.SearchTest" />
+			<class name="com.lenskart.testCases.ShippingWithWrapTest" />
+			<class name="com.lenskart.testCases.ShippingTest" />
+			<class name="com.lenskart.testCases.LoginTest"/>
+			<class name="com.lenskart.testCases.SignUpTest"/>
+			<class name="com.lenskart.testCases.EmptyCart"/>-->
+			<class name="com.lenskart.testCases.SearchTechinfo"/>
+			
+			
+			
+			
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
